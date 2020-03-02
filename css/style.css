@@ -107,5 +107,66 @@ ul{
     position: absolute;
     right: 15%;
     top: 470px;
-  
 }
+
+
+    .gradient{
+        background: rgba(213,55,155,1);
+        background: -moz-linear-gradient(left, rgba(213,55,155,1) 0%, rgba(119,117,193,1) 69%, rgba(114,119,195,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(213,55,155,1)), color-stop(69%, rgba(119,117,193,1)), color-stop(100%, rgba(114,119,195,1)));
+        background: -webkit-linear-gradient(left, rgba(213,55,155,1) 0%, rgba(119,117,193,1) 69%, rgba(114,119,195,1) 100%);
+        background: -o-linear-gradient(left, rgba(213,55,155,1) 0%, rgba(119,117,193,1) 69%, rgba(114,119,195,1) 100%);
+        background: -ms-linear-gradient(left, rgba(213,55,155,1) 0%, rgba(119,117,193,1) 69%, rgba(114,119,195,1) 100%);
+        background: linear-gradient(to right, rgba(213,55,155,1) 0%, rgba(119,117,193,1) 69%, rgba(114,119,195,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5379b', endColorstr='#7277c3', GradientType=1 );
+    }
+    
+
+    
+    
+    #horarios{
+        width: 100%;
+        min-height: 120px;
+        margin: 30px 0;
+        background: rgba(67,43,95,1);
+        background: -moz-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(67,43,95,1)), color-stop(100%, rgba(30,28,33,1)));
+        background: -webkit-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
+        background: -o-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
+        background: -ms-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
+        background: linear-gradient(to bottom, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#432b5f', endColorstr='#1e1c21', GradientType=0 );
+    }
+    .ao_vivo, .em_breve{
+        border-left: solid 1px var(--purple);
+        color: white;
+        padding: 0px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .partida img{
+        width: 40px;
+        padding: 0 15px;
+    }
+
+    .partida{
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        min-width: 200px;
+    }
+
+    #horarios  .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+    }
+     .em_breve{
+         width: 65%;
+     }
+      #horarios h2{
+          margin: 0px 15px;
+      }
