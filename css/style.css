@@ -272,4 +272,19 @@ ul{
         color: #474747;
     }
 
-     
+     /* PAGÍNA DE CADATRO */
+
+     .titulo_pagina{
+         width: 100%;
+         height: 300px;
+         background-image: url("../img/cadastro.png");
+         background-attachment: fixed;
+         background-size: contain;
+         background-repeat: no-repeat;
+         color: white;
+         display: flex;
+         justify-content: center;
+         align-items: flex-start;
+         text-transform: uppercase;
+         padding-top: 3em;          
+     }
